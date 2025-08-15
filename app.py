@@ -16,7 +16,6 @@ st.set_page_config(
 )
 
 # Initialize RAG engine with caching
-@st.cache_resource
 def initialize_rag_engine():
     return RAGEngine()
 
